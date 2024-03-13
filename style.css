@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(33, 28, 28);
+    color: white;
+    font-family:'teste';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 40px;
+}
+@font-face{
+    font-family:'teste';
+    src: url(KGLovinOnMe.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display:inline-block;
+    margin: 20px;
+}
+a{
+    color:white;
+    font-size: 40px;
+}
+a:hover{
+    color: purple;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+
+}
+#inscreva-se-btn{
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 15px;
+}
+#inscreva-se-btn:hover{
+    color: white;
+    background-color: purple;
+}
+h1{
+    font-weight: 300;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+    
+}
+span{
+    color: blueviolet;
+}
+p{
+ line-height: 20px;
+ max-width: 500px;
+ font-family: poppinslight;
+ font-size: 20px;
+}
+img{
+    width: 600px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+
+}
+input{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 20px ;
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+}
